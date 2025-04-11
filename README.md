@@ -45,6 +45,7 @@ Clone o repositório para sua máquina local:
 ### Passo 2: Instalar as dependências
 caso for usar no docker
 ```bash
+  docker-compose up -d
   docker-compose exec app bash
 ```
 Instale as dependências do projeto usando o Composer:
